@@ -1,0 +1,34 @@
+.task {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px brown solid;
+}
+.buttons {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.task-title {
+  margin-bottom: 5px;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: burlywood;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button:last-of-type {
+  margin-left: 10px;
+}
+.fas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
